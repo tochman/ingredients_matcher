@@ -253,7 +253,6 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
-  byebug
   cucumber-rails
   database_cleaner
   factory_bot_rails
@@ -277,4 +276,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.3
+   1.16.5
