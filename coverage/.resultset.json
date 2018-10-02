@@ -1,0 +1,46 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/rhon/CA/ingredients_matcher/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/rhon/CA/ingredients_matcher/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/rhon/CA/ingredients_matcher/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/Users/rhon/CA/ingredients_matcher/app/helpers/application_helper.rb": [
+        0,
+        0
+      ]
+    },
+    "timestamp": 1538497962
+  },
+  "Cucumber Features": {
+    "coverage": {
+      "/Users/rhon/CA/ingredients_matcher/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/rhon/CA/ingredients_matcher/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/rhon/CA/ingredients_matcher/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/Users/rhon/CA/ingredients_matcher/app/helpers/application_helper.rb": [
+        0,
+        0
+      ]
+    },
+    "timestamp": 1538497967
+  }
+}
