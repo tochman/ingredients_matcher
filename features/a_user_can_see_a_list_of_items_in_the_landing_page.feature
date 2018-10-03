@@ -4,12 +4,13 @@ In order to be able to choose for a recipe
 I would like to see a list of items available on the website
 
 Background:
-    Given I visit the landing page
     Given the following items exists
     | name      |
     | Chicken   |
     | Tomatoes  |
     | Garlic    |
+    And I visit the landing page
+
 
 Scenario: View list of items on the landing page
     Then I should see "What's on your fridge?"
