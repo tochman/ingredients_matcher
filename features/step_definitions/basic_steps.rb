@@ -1,5 +1,7 @@
 Given("the following items exists") do |table|
-    pending
+    table.hashes.each do |item|
+        create(:item, item)
+    end
 end
   
   Given("I visit the landing page") do
