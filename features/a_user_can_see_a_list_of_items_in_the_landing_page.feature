@@ -14,6 +14,6 @@ Background:
 
 Scenario: View list of items on the landing page
     Then I should see "What's in your fridge?"
-    And I should see "Chicken"
-    And I should see "Tomatoes"
-    And I should see "Garlic"
+    And I should select "Chicken"
+    And I should select "Tomatoes"
+    And I should select "Garlic"

@@ -7,3 +7,7 @@ end
 Given("I visit the landing page") do
     visit root_path
 end
+
+Then("I should select {string}") do |string|
+    check("Chicken", allow_label_click: true)
+end
