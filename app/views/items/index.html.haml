@@ -2,7 +2,16 @@
 %p Select some items and we'll give you some recipes
 
 %section.container
-%h4 What's on your fridge?
+%h4 What's in your fridge?
 - @items.each do |item|
     %div.item-tile{id: dom_id(item)}
     %p= item.name
+:Checkbox
+    %input#item-tile{:type => "checkbox"}/
+    %button{:onclick => "myFunction()"} Push
+
+:javascript
+    function = myFunction() {
+        let x = document.getElementById("myCheck");
+        x.checked = true;
+    }
