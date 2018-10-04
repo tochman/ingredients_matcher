@@ -9,5 +9,5 @@ Given("I visit the landing page") do
 end
 
 Then("I should check {string}") do |string|
-    check(string)
+    find(:label, string).click
   end
