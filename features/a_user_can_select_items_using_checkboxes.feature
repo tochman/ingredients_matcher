@@ -13,7 +13,7 @@ Background:
     And I visit the landing page
 
 Scenario: Select items on the landing page
-    Then I should see "What's in your fridge?"
-    And I should see "Chicken"
-    And I should see "Tomatoes"
-    And I should see "Garlic"
+    Then I should see "What's on your fridge?"
+    And I should check "Chicken"
+    And I should check "Tomatoes"
+    And I should check "Garlic"

@@ -2,7 +2,9 @@
 %p Select some items and we'll give you some recipes
 
 %section.container
-%h4 What's in your fridge?
-- @items.each do |item|
-    %div.item-tile{id: dom_id(item)}
-    %p= item.name
+%h4 What's on your fridge?
+= form_with scope: :item do |f|
+    - @items.each do |item|
+        = f.label item.name
+        = f.check_box 'items_id[]', { multiple: true }, item.id, false
+    = f.submit 'search recipe'
