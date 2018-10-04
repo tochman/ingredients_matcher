@@ -6,12 +6,3 @@
 - @items.each do |item|
     %div.item-tile{id: dom_id(item)}
     %p= item.name
-:Checkbox
-    %input#item-tile{:type => "checkbox"}/
-    %button{:onclick => "myFunction()"} Push
-
-:javascript
-    function = myFunction() {
-        let x = document.getElementById("myCheck");
-        x.checked = true;
-    }
