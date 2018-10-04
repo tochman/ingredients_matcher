@@ -1,0 +1,70 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/noel/ingredients_matcher/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/noel/ingredients_matcher/app/models/item.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/noel/ingredients_matcher/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/noel/ingredients_matcher/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/noel/ingredients_matcher/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/Users/noel/ingredients_matcher/app/controllers/items_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1538652961
+  },
+  "Cucumber Features": {
+    "coverage": {
+      "/Users/noel/ingredients_matcher/app/models/item.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/noel/ingredients_matcher/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/noel/ingredients_matcher/app/controllers/items_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/noel/ingredients_matcher/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/noel/ingredients_matcher/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/noel/ingredients_matcher/app/jobs/application_job.rb": [
+        0,
+        0
+      ]
+    },
+    "timestamp": 1538652964
+  }
+}
