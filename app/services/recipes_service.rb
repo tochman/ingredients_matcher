@@ -9,8 +9,5 @@ module RecipesService
     end
 end
 
-
-# 
-
 # https://www.food2fork.com/api/search?key=&q=ingredient
 # #{API-KEY}    #{ingredient}
