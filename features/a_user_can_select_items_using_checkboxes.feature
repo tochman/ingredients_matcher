@@ -14,6 +14,7 @@ Background:
 
 Scenario: Select items on the landing page
     Then I should see "What's on your fridge?"
-    And I should check "Chicken"
-    And I should check "Tomatoes"
-    Then I should click on "Search" to get the recipe
+    And I check "Chicken" 
+    And I check "Tomatoes"
+    Then I click on "Search" to get the recipe
+    And I should see
