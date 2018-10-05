@@ -17,3 +17,4 @@ Scenario: Select items on the landing page
     And I should check "Chicken"
     And I should check "Tomatoes"
     And I should check "Garlic"
+    Then I should click on "Search" to get the recipe
