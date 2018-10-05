@@ -1,5 +1,6 @@
 class RecipesController < ApplicationController
     def index
-        @recipes = Recipes.all
+        @recipes = RecipesService.get_recipes
+        binding.pry
     end
 end
