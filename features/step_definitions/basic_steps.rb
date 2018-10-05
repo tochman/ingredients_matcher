@@ -7,3 +7,7 @@ end
 Given("I visit the landing page") do
     visit root_path
 end
+
+Then("I should check {string}") do |option|
+    check option
+  end
