@@ -6,3 +6,8 @@
 - @items.each do |item|
     %div.item-tile{id: dom_id(item)}
     %p= item.name
+
+- @recipes.each do |recipe|
+    %p= recipe["title"]
+    %a{href: recipe["source_url"]}
+        = image_tag recipe["image_url"]
