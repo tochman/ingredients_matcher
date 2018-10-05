@@ -8,5 +8,6 @@
     %p= item.name
 
 - @recipes.each do |recipe|
-    -# - binding.pry
     %p= recipe["title"]
+    %a{href: recipe["source_url"]}
+        = image_tag recipe["image_url"]
