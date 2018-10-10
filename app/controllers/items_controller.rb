@@ -2,8 +2,7 @@ class ItemsController < ApplicationController
   
   def index
     @items = Item.all
-    @recipes = RecipesService.get_recipes(nil)
-
+    @recipes = []
   end
 
   def create
