@@ -18,4 +18,5 @@ Feature: Select items
         And I check "Chicken"
         And I check "Tomatoes"
         Then I click on "Search" to get the recipe
+        Then stop
 # And I should see

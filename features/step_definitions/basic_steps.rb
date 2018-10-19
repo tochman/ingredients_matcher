@@ -15,3 +15,7 @@ Then("I check {string}") do |option|
 Then("I click on {string} to get the recipe") do |link|
     click_on link
 end
+
+Then('stop') do 
+    binding.pry
+end
