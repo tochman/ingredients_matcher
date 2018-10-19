@@ -1,7 +1,6 @@
 require 'rest-client'
 
 module RecipesService
-
     def self.get_recipes(items)
         search_recipe = items.join(",")
         headers = {'Content-Type': 'application/json'} 

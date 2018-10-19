@@ -18,5 +18,5 @@ Feature: Select items
         And I check "Chicken"
         And I check "Tomatoes"
         Then I click on "Search" to get the recipe
-        Then stop
-# And I should see
+        Then I should see 'Cajun Chicken Pasta'
+        And I should see 'Chicken Parmigiana'
