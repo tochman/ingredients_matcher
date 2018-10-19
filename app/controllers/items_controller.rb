@@ -6,6 +6,7 @@ class ItemsController < ApplicationController
   end
 
   def create
+    @items = Item.all
     @recipes = RecipesService.get_recipes(params[:items])['recipes']
     render :index
   end
