@@ -1,6 +1,6 @@
 %h1 Ingredients Matcher
 %p Select some items and we'll give you some recipes
-
+- binding.pry
 %section.container
 %h4 What's on your fridge?
 = form_with url: items_path do |f|
@@ -8,7 +8,7 @@
         = f.label item.name
         = f.check_box :items, { multiple: true, id: "#{item.name}"}, item.name, false
     = f.submit "Search"
-    
+
 - @recipes.each do |recipe|
     %p= recipe["title"]
     %a{href: recipe["source_url"]}
