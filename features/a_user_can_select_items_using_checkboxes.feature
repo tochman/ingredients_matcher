@@ -1,4 +1,4 @@
-@javascript
+@javascript @api_call
 Feature: Select items
 
     As a user
@@ -16,7 +16,7 @@ Feature: Select items
     Scenario: Select items on the landing page
         Then I should see "What's on your fridge?"
         And I check "Chicken"
-        And I check "Tomatoes"
+        # And I check "Tomatoes"
         Then I click on "Search" to get the recipe
         Then I should see 'Cajun Chicken Pasta'
         And I should see 'Chicken Parmigiana'
